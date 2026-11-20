@@ -1,4 +1,4 @@
-# Sumaiya Hossain — Pharmacy Portfolio
+# Sumaiya Hossain â€” Pharmacy Portfolio
 
 A single-page academic portfolio for **Sumaiya Hossain**, a pharmacy student at the Department of Pharmacy, Manarat International University.
 
@@ -8,18 +8,25 @@ A single-page academic portfolio for **Sumaiya Hossain**, a pharmacy student at 
 
 ## Highlights
 
-- Dark, premium visual theme with teal, cyan, and violet accents
-- Animated hero with an "SH" monogram orbit (no photo required)
-- About, Education timeline, Areas of Interest, Skills, and Contact sections
-- Responsive layout with a mobile menu
-- Scroll progress bar, active navigation, reveal animations, and back-to-top
+- **Light, premium professional theme** â€” warm ivory background, deep teal & gold accents, Fraunces/Inter typography
+- About / Profile card with student ID, university, tags, and quick facts
+- Education timeline â€” Bachelor of Pharmacy + academic focus in Digital Health & Cheminformatics
+- Expertise (Skills) â€” MS Office, Lab Techniques, Art & Design with toolkit chips
+- **Areas of Interest** â€” Digital Health & mHealth, Pharmacovigilance & Drug Safety, Cheminformatics & Computation
+- Professional strengths section (Accuracy & rigour, Clear communication, Curiosity & adaptability)
+- Contact â€” email, location, GitHub, open-to-opportunities note
+- Scroll progress bar, active navigation, reveal animations on scroll
 - Copy-email button with toast feedback
-- Accessible focus states and `prefers-reduced-motion` support
+- Back-to-top button
+- Print / Save as PDF button in contact section
+- Reduced-motion support and accessible focus states
+- Single self-contained `index.html`
+- No build step, no dependencies, no tracking
 
 ## Tech
 
 - HTML5, CSS3, vanilla JavaScript
-- Google Fonts: **Sora** + **Manrope**
+- Google Fonts: **Fraunces** (serif display) + **Inter** (body)
 - Single self-contained `index.html`
 - No build step, no dependencies, no tracking
 
@@ -31,6 +38,7 @@ Everything lives in `index.html`.
 - Colours: edit the CSS variables at the top of the `<style>` block
 - Links: search for `sumiyasu311@gmail.com` and `github.com/sumiyasu311`
 - Student ID: search for `2547BPM02114`
+- Areas of Interest: three cards â€” modify labels and tags as needed
 
 ## Deployment
 
@@ -42,4 +50,4 @@ To publish an update, replace `index.html` in the repository. GitHub Pages rebui
 
 ---
 
-© Sumaiya Hossain · Dhaka, Bangladesh
+Â© Sumaiya Hossain Â· Dhaka, Bangladesh

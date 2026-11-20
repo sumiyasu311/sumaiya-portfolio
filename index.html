@@ -98,8 +98,8 @@
 
 /* ---------- HERO PHOTO CARD ---------- */
 .hero-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:34px;box-shadow:var(--shadow);text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px}
-.pharmacy-badge{position:relative;width:64px;height:64px;border-radius:16px;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal-deep);font:600 1rem 'Fraunces',serif;box-shadow:0 12px 28px rgba(15,118,110,.18);animation:pulse-pharmacy 4s ease-in-out infinite}
-@keyframes pulse-pharmacy{0%,100%{transform:scale(1);box-shadow:0 12px 28px rgba(15,118,110,.18)}50%{transform:scale(1.06);box-shadow:0 16px 36px rgba(15,118,110,.24)}}
+.pharmacy-badge{position:relative;width:64px;height:64px;border-radius:16px;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal-deep);font:600 1rem 'Fraunces',serif;box-shadow:0 12px 28px rgba(15,118,110,.18);animation:float-pharmacy 4s ease-in-out infinite}
+@keyframes float-pharmacy{0%,100%{transform:translateY(0) rotate(0deg);box-shadow:0 12px 28px rgba(15,118,110,.18)}50%{transform:translateY(-8px) rotate(2deg);box-shadow:0 16px 36px rgba(15,118,110,.24)}}
 .pharmacy-badge .ic{width:26px;height:26px;stroke-width:1.5;fill:none;stroke:currentColor}
 .hero-card h2{font:700 1.5rem 'Fraunces',serif;color:var(--ink);margin:0}
 .hero-card .student-id{font:700 1rem 'Inter',sans-serif;color:var(--ink);letter-spacing:.05em}
